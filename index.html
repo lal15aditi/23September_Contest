@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="upper-head">Student Portal</div>
+
+        <div class="search-bar main-content">
+            <input type="search" placeholder="Search">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <div class="sort-btns main-content">
+            <button>Sort A->Z</button>
+            <button>Sort Z->A</button>
+            <button>Sort By Marks</button>
+            <button>Sort By Passing</button>
+            <button>Sort By Class</button>
+            <button>Sort By Gender</button>
+        </div>
+
+        <div class="table-container main-content">
+            <table border="1" class="">
+                <thead>
+                    <th align="center">ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </thead>
+
+                <tbody id="main_body">
+                    <!-- <tr>
+                        <td align="center">1</td>
+                        <td>
+                            <div class="name-img">
+                                <img src="./dp 1.png" alt="">
+                                <p>Avi Vashishta</p>
+                            </div>
+                        </td>
+                        <td>Male</td>
+                        <td>12</td>
+                        <td>99</td>
+                        <td>Failed</td>
+                        <td>avi@gmail.com</td>
+                    </tr> -->
+                </tbody>
+            </table>
+
+            <table border="1" class="t-none">
+                <caption>Female Table : </caption>
+                <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </thead>
+
+                <tbody id="female_body" class="female-body">
+                    
+                </tbody>
+            </table>
+
+            <table border="1" class="t-none">
+                <caption>Male Table : </caption>
+                <thead>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </thead>
+
+                <tbody class="male-body" id="male_body"></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

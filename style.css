@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #cdcdcd; */
+    font-size: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,td {
+    text-align: left;
+    padding: 10px 20px;
+}
+
+table>*>* :first-child{
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+caption {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.main{
+    background-color: #cdcdcd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main-content {
+    padding-inline: 10px;
+}
+
+.upper-head {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.search-bar {
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.search-bar input {
+    padding: 10px;
+    flex: 1;
+    background-color: #d9d9d9;
+    border: 1.5px solid black;
+}
+
+.search-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+}
+
+.sort-btns {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.sort-btns>button {
+    flex: 1;
+}
+
+.name-img {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.name-img>img{
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.t-none {
+    display: none;
+}
